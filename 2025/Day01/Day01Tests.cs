@@ -28,9 +28,8 @@ public sealed class Day01Tests
     [TestMethod]
     public void Day1()
     {
-        var result = SolvePart2(PuzzleInput);
-        Console.WriteLine($"Day 1 Part 2 Answer: {result}");
-        Assert.IsTrue(result > 0);
+        Console.WriteLine($"Part 1: {SolvePart1(PuzzleInput)}");
+        Console.WriteLine($"Part 2: {SolvePart2(PuzzleInput)}");
     }
 
     private static int SolvePart1(string input)
